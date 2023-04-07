@@ -1,0 +1,58 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.lessons {
+    text-align: center;
+}
+
+.lesson-title {
+    font-size: 25px;
+    border-bottom: 2px solid black;
+}
+
+/* 親要素にposition:relative, 子要素にabsolute */
+.lesson-item {
+    position: relative;
+}
+
+.lesson-item p{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.txt-contents {
+    width:80%;
+    font-size: 13px;
+    color: rgb(63, 63, 63);
+    display: inline-block;
+    display: none;
+}
+
